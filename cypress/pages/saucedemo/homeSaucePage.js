@@ -9,9 +9,9 @@ class homeSaucePage{
     }
 
     Login(username, password){
-        this.elements.usernameInput().type(username);
+        this.elements.usernameInput().type(username)
         this.elements.passwordInput().type(password)
-        this.elements.btnLogin().click();
+        this.elements.btnLogin().click()
 
     }
 }
